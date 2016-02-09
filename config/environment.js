@@ -40,7 +40,6 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.locationType = 'hash';
     ENV.baseURL = '/test-ember-cli-bootstrap-gh-pages';
 
   }
